@@ -1,0 +1,25 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container{
+    width: 800px;
+    margin: auto;
+}
+
+livro{
+    background-color: white;
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+}
+
+.titulo{
+    color:#2c3e50
+}
+
+#listaLivro{
+    display: flex;
+    flex-direction: column;
+}

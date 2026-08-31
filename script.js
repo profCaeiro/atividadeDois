@@ -34,7 +34,7 @@ function mostrarLivros(){
 
     for(let i = 0; i >= livros.length; i++){
 
-        const livro = livros[i];
+        const livro = livros[0]
 
         if(livro.nota > 4){
 
